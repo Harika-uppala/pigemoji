@@ -1,0 +1,108 @@
+.face{
+    height: 250px;
+    width: 250px;
+    background-color: peachpuff;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -4%;
+    position: relative;
+    border: 2px solid black;
+}
+.ears{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    width: 280px;
+    margin: auto;
+    margin-top: 15%;
+}
+#lear{
+    height: 70px;
+    width: 100px;
+    background-color: peachpuff;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    transform: rotate(-35deg);
+    border: 2px solid black;
+}
+#rear{
+    height: 70px;
+    width: 100px;
+    background-color: peachpuff;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    transform: rotate(35deg);
+    border: 2px solid black
+}
+.eyes{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 250px;
+    margin-top: 20%;
+}
+#leye{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+#lpupil{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#reye{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+      
+}
+#rpupil{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.mouth{
+    height: 60px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    margin-top: 60%;
+    margin-left:30%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+/*#nose{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 250px;
+    margin-top: 20%;
+    margin-left: 20%;
+}*/
+#nose1{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+#nose2{
+    height: 25px;
+    width: 25px;
+    background-color:black;
+    border-radius: 50%;
+    margin-left: 60%;
+    margin-top: -24%;
+}
